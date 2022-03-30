@@ -27,7 +27,7 @@ parser.add_argument(
     "--n_save_ex", type=int, default=50, help="Number of audio examples to save, -1 means all"
 )
 
-ALL_METRICS = ["si_sdr", "sdr", "sir", "sar", "stoi", "pesq"]
+ALL_METRICS = ["si_sdr", "sdr", "sir", "sar", "stoi"]
 COMPUTE_METRICS = ALL_METRICS
 
 
