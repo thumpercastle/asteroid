@@ -11,7 +11,7 @@ import torch.nn as nn
 
 from .utils import average_arrays_in_dic
 
-ALL_METRICS = ["si_sdr", "sdr", "sir", "sar", "stoi", "pesq"]
+ALL_METRICS = ["si_sdr", "sdr", "sir", "sar", "stoi"]
 
 
 def get_metrics(
